@@ -1,0 +1,133 @@
+   
+#rm,#jin,#jhope,#jimin,#suga,#v,#jungkook{
+    border: 2px solid purple;
+    list-style: none;
+    height: 400px;
+    display: inline-block;
+    margin-top: 20px;
+    background-color: rgb(248, 238, 248);
+}
+button{
+    background-color: rgb(229, 238, 166);
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+button:hover{
+    background-color: rgb(186, 236, 220);
+}
+.members{
+    margin-right: 20px;
+    border-radius: 500px;
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: linear-gradient(to left,rgb(224, 199, 224),rgb(222, 199, 241));
+}
+
+
+header {
+    background-color: #000;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#hero {
+    background-image: url('images/bts-hero.jpg'); 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+#music{
+    background-image: linear-gradient(to left, rgb(206, 231, 237), rgb(242, 133, 133));
+}
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.merch{
+    display: inline-block;
+}
+
+#shop{
+    background-color: rgb(251, 229, 234);
+    color: rgb(105, 105, 223);
+    border-radius: 8px;
+    padding: 5px;
+    border: 1px solid black;
+}
+#shop:hover{
+    cursor:pointer;
+    color: rgb(30, 30, 216);
+    }
+
+    .title-rm{
+        width: 200px;
+        float: right;
+    }
+
+    #music{
+        display: grid;
+        grid-template-columns: auto auto ;
+        column-gap: 50px;
+        row-gap: 50px;
+    }
+    @media screen and (max-width:600px){
+        ul{
+            display: flex;
+            flex-direction: column;
+        }
+        #rm,#jin,#jhope,#jimin,#suga,#v,#jungkook{
+            height: 1000px;
+            width: 380px;
+        }
+        iframe{
+            width: 350px;
+            height: 200px;
+        }
+    }

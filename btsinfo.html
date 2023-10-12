@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(159, 75, 237);
+        }
+        #info{
+            background-color: rgb(244, 241, 246);
+            margin-top: 20px;
+            margin-left: 200px;
+            border: 2px solid black;
+        }
+        h1{
+         z-index: 20;
+         position: fixed;
+         top:2px;
+         left:2px;
+         background-color: rgb(247, 239, 228);
+         color: rgb(117, 7, 137);
+         text-align: center;
+         border: 2px solid rgb(48, 167, 48);
+         font-size: 50px;
+         width: 500px;
+         animation-name: move;
+         animation-duration: 10s;
+         animation-direction: alternate;
+         animation-timing-function: linear;
+         animation-delay: none;
+         animation-iteration-count: infinite;
+        }
+    
+        @keyframes move{
+    
+            from{
+            top: 2px;
+            left: 200px;
+            }
+            to{
+            top: 2px;
+            left: 850px;
+            }
+    
+        }
+        .head{
+            display: flex;
+           
+        }
+        #photo{
+            position: relative;
+            left: 200px;
+            width: 1130px;
+        }
+        #navbar{
+            display: flex;
+            height: 25vh;
+            position: fixed;
+            display: inline-block;
+            border: 1px solid black;
+            background-color: antiquewhite;
+            font-size: large;
+        }
+        </style>
+        <h1>Welcome Army</h1>
+            <div class="head">
+                <nav id="navbar">
+                <ul>
+                    <li><a href="#info">About</a></li>
+                    <li><a href="#Works">Works</a></li>
+                    <li><a href="">Achievements</a></li>
+                    <li><a href="">Listen to BTS</a></li>
+                    <li><a href="">Connect with BTS</a></li>
+                </ul>
+            </nav>
+            <img id="photo"src="btsarmy.jpg" alt="loading">
+           </div>
+          
+           <div id="info">
+            <h2>ABOUT</h2>
+           <p>BTS(Bangtan Sonyeondan), also known as the Bangtan Boys, is a South Korean boy band formed in 2010 debuted under <a href="https://en.wikipedia.org/wiki/Big_Hit_Music"> BigHit Official</a>. The band consists of Jin, Suga, J-Hope, RM, Jimin, V, and Jungkook.BTS debuted in 2013 under Big Hit Entertainment with the single album 2 Cool 4 Skool 
+        <br> <ul>
+            <p><strong>Members</strong></p>
+            <li><a href="https://en.wikipedia.org/wiki/RM_(musician)">RM</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Suga">Suga</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/J-Hope">J-Hope</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Jin_(singer)">Jin</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Jimin">Jimin</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/V_(singer)">V</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Jungkook">Jungkook</a></li>
+        </ul></p> 
+    </div>

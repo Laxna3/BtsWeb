@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            height: 1200px;
+        }
+        #menu{
+            border: 2px solid white;
+        }
+        #main{
+            display: flex;
+            flex-direction:row;
+            justify-content:start;
+            color: white;
+        }
+        a{
+            color: white;
+        }
+        #grouphoto{
+            margin: 250px;
+        }
+    
+        h2{
+         position: fixed;
+         top:2px;
+         left:2px;
+         background-color: rgb(247, 239, 228);
+         color: rgb(117, 7, 137);
+         text-align: center;
+         border: 2px solid rgb(48, 167, 48);
+         font-size: 50px;
+         width: 500px;
+         animation-name: move;
+         animation-duration: 10s;
+         animation-direction: alternate;
+         animation-timing-function: linear;
+         animation-delay: none;
+         animation-iteration-count: infinite;
+        }
+    
+        @keyframes move{
+    
+            from{
+            top: 2px;
+            left: 2px;
+            }
+            to{
+            top: 2px;
+            left: 850px;
+            }
+    
+        }
+    </style>
+</head>
+
+<body>
+   <div><h2>Welcome Army</h2></div> 
+    <div id="main">
+        <div id="navigationbar" >
+            <nav>
+                <ul id="menu">
+                    <li><a href="" >About</a></li>
+                    <li><a href="" >Works</a></li>
+                    <li><a href="" >Achievements</a></li>
+                    <li><a href="" >Listen to BTS</a></li>
+                    <li><a href="" >Connect with BTS</a></li>
+        
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <img class="grouphoto" src="btsarmy.jpg" alt="loading"style="width:1000px" height="700px">
+        </div>
+        
+        </div>
+    
+
+</body>
+</html>
